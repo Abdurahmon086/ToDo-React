@@ -1,0 +1,61 @@
+.card {
+    width: 100%;
+    margin-top: 50px;
+
+    // &__table {
+    //     border-top: 1px solid #E5E5E5;
+    // }
+
+    &__table-wrapper {
+        width: 100%;
+        border-collapse: separate;
+        border-spacing: 0 10px;
+    }
+
+    &__head-row {
+        text-align: left;
+    }
+
+    &__head-text {
+        padding: 21px 0;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+        color: #ACACAC;
+
+        &:nth-child(1) {
+            width: 70px;
+        }
+    }
+    &__body-row {
+        background: #FFFFFF;
+    }
+
+    &__body-img {
+        border-bottom-left-radius: 5px;
+        border-top-left-radius: 5px;
+    }
+
+    &__body-img img {
+        border-radius: 18px;
+        padding: 15px 13px;
+    }
+
+    &__body-text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: #000000;
+        padding: 15px 0;
+    }
+
+    &__body-icon {
+        border-bottom-right-radius: 5px;
+        border-top-right-radius: 5px;
+
+        :nth-child(2) {
+            margin-left: 33px;
+        }
+
+    }
+}
